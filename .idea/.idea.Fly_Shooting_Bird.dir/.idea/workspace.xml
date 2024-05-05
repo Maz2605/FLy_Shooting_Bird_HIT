@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3dba6d9-d603-47b0-b03a-91063d97f947" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Animations/Bird A.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Animations/Bird A.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Animations/Bird B.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Animations/Bird B.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Animations/Bird C.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Animations/Bird C.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Animations/Bird D.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Animations/Bird D.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Animations/Bird.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Animations/Bird.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Prefab/Bullet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Prefab/Bullet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Script.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Script/Bird.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Script/Bird.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Script/Bullet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_FlappyBird/Script/Bullet.cs.meta" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2g1kPd6ZfcH6217Ng5rCim4TAbC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3dba6d9-d603-47b0-b03a-91063d97f947" name="Changes" comment="" />
+      <created>1714872448418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714872448418</updated>
+      <workItem from="1714872449864" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectDiscoverer">
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
