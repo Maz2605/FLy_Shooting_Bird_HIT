@@ -25,16 +25,21 @@ public class Wall : BasePooling
         posY[0] = bound - height[0] / 2;
         posY[1] = height[1] / 2;
         posY[2] = -height[2] / 2;
-        posY[3] = -bound + height[3] / 2;   
+        posY[3] = -bound + height[3] / 2;
 
-        for(int i =  0; i < blockNumber; i++) 
+        for (int i = 0; i < blockNumber; i++)
         {
-            var block = (Block) PoolingManager.Instance.GetObject(NamePrefabPool.Block, transform, new Vector2(transform.position.x, posY[i]));   
+            BlockType blockType = (BlockType)Random.Range(0, 3);
+            var block = (Block)PoolingManager.Instance.GetObject(NamePrefabPool.Block, transform, new Vector2(transform.position.x, posY[i]));
+            block.blockType = blockType;
+            block.SetData();
             block.sr.size = new Vector2(block.sr.size.x, height[i]);
+            block.coll.size = block.sr.size;
         }
     }
     private void Update()
     {
-        transform.position = new Vector3(transform.position.x-wallSpeed*Time.deltaTime, transform.position.y,transform.position.z);
+        transform.position = new Vector3(transform.position.x - wallSpeed * Time.deltaTime, transform.position.y, transform.position.z);
     }
+
 }

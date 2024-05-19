@@ -21,8 +21,8 @@ public class Bird : MonoBehaviour
         {
             rb.velocity = new Vector2(0f, jumpForce);
         }
-        if(transform.position.y >= boundTop) transform.position = new Vector2(transform.position.x, boundBot);
-        if(transform.position.y <= boundBot) transform.position = new Vector2(transform.position.x, boundTop);
+        if(transform.position.y >= boundTop) transform.position = new Vector2(transform.position.x, boundTop);
+        if(transform.position.y <= boundBot) transform.position = new Vector2(transform.position.x, boundBot);
         if (spawnDelay <= 0)
         {
             spawnDelay = cooldown;

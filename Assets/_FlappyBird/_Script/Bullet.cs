@@ -10,4 +10,11 @@ public class Bullet : BasePooling
         //transform.localScale = new Vector3(1.5f, 1.5f, 0);
         rb.velocity = new Vector2(bulletSpeed, 0f);
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Block"))
+        {
+            gameObject.SetActive(false);
+        }
+    }
 }
