@@ -50,6 +50,8 @@ MonoBehaviour:
   poolNameString: Bullet
   index: 0
   rb: {fileID: -6393574196171145575}
+  sr: {fileID: 3240525120210624374}
+  damage: 1
 --- !u!212 &3240525120210624374
 SpriteRenderer:
   m_ObjectHideFlags: 0

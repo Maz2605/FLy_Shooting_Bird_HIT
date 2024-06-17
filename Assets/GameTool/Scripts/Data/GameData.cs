@@ -7,7 +7,9 @@ public class GameData : SingletonMonoBehaviour<GameData>
 {
     public GameDataSave Data;
     public BlockData blockData;
-    
+    public BulletData bulletData;
+
+    public int score = 0;
  
     //[Header("SCENE FLOW")]
     
@@ -116,7 +118,7 @@ public class GameData : SingletonMonoBehaviour<GameData>
 [Serializable]
 public class GameDataSave
 {
-   
+    public int highlestScore;
     public bool MuteAll;
     public bool PushAlarm = true;
     public bool SoundFX = true;
