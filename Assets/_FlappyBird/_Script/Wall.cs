@@ -33,6 +33,7 @@ public class Wall : BasePooling
             var block = (Block)PoolingManager.Instance.GetObject(NamePrefabPool.Block, transform, new Vector2(transform.position.x, posY[i]));
             block.blockType = blockType;
             block.SetData();
+            block.Disable(9.5f);
             block.sr.size = new Vector2(block.sr.size.x, height[i]);
             block.coll.size = block.sr.size;
         }

@@ -21,9 +21,17 @@ public class Block : BasePooling
         curHP -= damege;
         if(curHP < 0)
         {
-            Disable();
+            Destroy(gameObject);
             ++GameData.Instance.score;
+
+            if(GameData.Instance.score >= GameData.Instance.HighestScore)
+            {
+                GameData.Instance.HighestScore = GameData.Instance.score;
+                GameMenu.Instance.UpdateHighestSoreText(GameData.Instance.score);
+            }
+            GameMenu.Instance.UpdateSoreText(GameData.Instance.score);
         }
+
         SetSprite();
     }
     public void SetSprite()

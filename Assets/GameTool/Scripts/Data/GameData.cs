@@ -111,8 +111,16 @@ public class GameData : SingletonMonoBehaviour<GameData>
             SaveData(eData.Vibration, Vibration);
         }
     }
-    
-  
+    public int HighestScore
+    {
+        get => Data.highlestScore;
+        set
+        {
+            Data.highlestScore = value;
+            SaveData(eData.highlestScore, HighestScore);
+        }
+    }
+
 }
 
 [Serializable]
